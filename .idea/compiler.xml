@@ -7,53 +7,79 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="changgou_service_page" />
         <module name="changgou_common_db" />
-        <module name="springboot-thymeleaf" />
+        <module name="changgou-user-oauth" />
         <module name="changgou_eureka" />
         <module name="changgou_service_order_api" />
+        <module name="changgou_gateway_web" />
+        <module name="changgou_service_config" />
+        <module name="changgou_service_business_api" />
+        <module name="changgou_service_user_api" />
         <module name="changgou_web_order" />
+        <module name="changgou_service_system_api" />
+        <module name="changgou_service_business" />
         <module name="changgou_service_system" />
+        <module name="changgou_service_file" />
+        <module name="changgou_common" />
         <module name="changgou_service_order" />
-        <module name="changgou_canal" />
+        <module name="changgou_gateway_system" />
+        <module name="changgou_service_goods_api" />
         <module name="changgou_service_search" />
-        <module name="changgou_user_auth" />
+        <module name="changgou_canal" />
+        <module name="changgou_service_goods" />
         <module name="changgou_service_config_api" />
         <module name="changgou_service_search_api" />
         <module name="changgou_service_user" />
-        <module name="changgou_service_page" />
-        <module name="changgou_gateway_web" />
-        <module name="changgou_service_config" />
-        <module name="changgou_service_user_api" />
-        <module name="changgou_service_business_api" />
-        <module name="changgou_service_system_api" />
-        <module name="changgou_service_business" />
-        <module name="changgou_common" />
-        <module name="changgou_service_file" />
-        <module name="changgou_web" />
-        <module name="changgou_service_goods_api" />
-        <module name="changgou_gateway_system" />
-        <module name="changgou_service_goods" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="changgou-user-auth" target="1.8" />
-      <module name="changgou_entity" target="8" />
+      <module name="changgou-user-oauth" target="1.8" />
+      <module name="changgou_canal" target="1.8" />
+      <module name="changgou_common" target="1.8" />
+      <module name="changgou_common_db" target="1.8" />
+      <module name="changgou_eureka" target="1.8" />
+      <module name="changgou_gateway" target="1.8" />
+      <module name="changgou_gateway_system" target="1.8" />
+      <module name="changgou_gateway_web" target="1.8" />
+      <module name="changgou_parent" target="1.8" />
+      <module name="changgou_search" target="1.8" />
+      <module name="changgou_service" target="1.8" />
+      <module name="changgou_service_api" target="1.8" />
+      <module name="changgou_service_business" target="1.8" />
+      <module name="changgou_service_business_api" target="1.8" />
+      <module name="changgou_service_config" target="1.8" />
+      <module name="changgou_service_config_api" target="1.8" />
+      <module name="changgou_service_file" target="1.8" />
+      <module name="changgou_service_goods" target="1.8" />
+      <module name="changgou_service_goods_api" target="1.8" />
+      <module name="changgou_service_order" target="1.8" />
+      <module name="changgou_service_order_api" target="1.8" />
+      <module name="changgou_service_page" target="1.8" />
+      <module name="changgou_service_search" target="1.8" />
+      <module name="changgou_service_search_api" target="1.8" />
+      <module name="changgou_service_system" target="1.8" />
+      <module name="changgou_service_system_api" target="1.8" />
+      <module name="changgou_service_user" target="1.8" />
+      <module name="changgou_service_user_api" target="1.8" />
+      <module name="changgou_user_auth" target="1.8" />
+      <module name="changgou_web" target="1.8" />
+      <module name="changgou_web_order" target="1.8" />
+      <module name="changgouservicepage" target="1.8" />
+      <module name="springboot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="changgou-user-auth" options="-parameters" />
+      <module name="changgou-user-oauth" options="-parameters" />
       <module name="changgou_canal" options="-parameters" />
       <module name="changgou_common" options="-parameters" />
       <module name="changgou_common_db" options="-parameters" />
-      <module name="changgou_entity" options="-parameters" />
       <module name="changgou_eureka" options="-parameters" />
       <module name="changgou_gateway" options="-parameters" />
       <module name="changgou_gateway_system" options="-parameters" />
       <module name="changgou_gateway_web" options="-parameters" />
-      <module name="changgou_parent" options="-parameters" />
-      <module name="changgou_service" options="-parameters" />
-      <module name="changgou_service_api" options="-parameters" />
+      <module name="changgou_search" options="-parameters" />
       <module name="changgou_service_business" options="-parameters" />
       <module name="changgou_service_business_api" options="-parameters" />
       <module name="changgou_service_config" options="-parameters" />
@@ -70,10 +96,9 @@
       <module name="changgou_service_system_api" options="-parameters" />
       <module name="changgou_service_user" options="-parameters" />
       <module name="changgou_service_user_api" options="-parameters" />
-      <module name="changgou_user_auth" options="-parameters" />
       <module name="changgou_web" options="-parameters" />
       <module name="changgou_web_order" options="-parameters" />
-      <module name="springboot-thymeleaf" options="-parameters" />
+      <module name="changgouservicepage" options="-parameters" />
     </option>
   </component>
 </project>

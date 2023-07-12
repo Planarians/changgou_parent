@@ -3,12 +3,10 @@ package com.changgou.order.service;
 import java.util.Map;
 
 public interface CartService {
-    void add(String skuId, Integer num, String username);
 
+    //添加购物车
+    void addCart(String skuId,Integer num,String username);
 
-    /***
-     * 查询用户的购物车数据
-     * @return
-     */
+    //查询购物车数据
     Map list(String username);
 }

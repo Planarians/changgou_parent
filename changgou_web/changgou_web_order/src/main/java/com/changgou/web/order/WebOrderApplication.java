@@ -1,6 +1,6 @@
 package com.changgou.web.order;
 
-import com.changgou.interceptor.FeignInterceptor.FeignInterceptor;
+import com.changgou.interceptor.FeignInterceptor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;

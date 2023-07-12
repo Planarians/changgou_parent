@@ -32,4 +32,4 @@ hystrix:
         isolation:
           strategy: SEMAPHORE
 # 生成静态页的位置
-pagepath: /Users/xiaoshitou/Downloads/items
+pagepath: D:\items

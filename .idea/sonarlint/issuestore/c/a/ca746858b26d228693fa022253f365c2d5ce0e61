@@ -1,7 +1,0 @@
-
-P
-java:S1854":Remove this useless assignment to local variable "result".(†›
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¾­×ß
-A
-java:S1481"+Remove this unused "result" local variable.(†›
-]	java:S125"<This block of commented-out lines of code should be removed.(™ÒŠúÿÿÿÿ8şı®Ó’1

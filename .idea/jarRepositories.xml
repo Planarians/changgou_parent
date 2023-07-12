@@ -4,12 +4,7 @@
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
-      <option name="url" value="https://repo.huaweicloud.com/repository/maven/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="maven-public" />
-      <option name="name" value="maven-public" />
-      <option name="url" value="https://repo.huaweicloud.com/repository/maven/" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -22,14 +17,9 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="https://maven.aliyun.com/repository/public" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="maven-public" />
       <option name="name" value="maven-public" />
-      <option name="url" value="https://maven.aliyun.com/repository/public" />
+      <option name="url" value="http://localhost:8081/repository/maven-public/" />
     </remote-repository>
   </component>
 </project>

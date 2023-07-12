@@ -1,28 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/changgou_canal/pom.xml" />
-        <option value="$PROJECT_DIR$/changgou_service_api/changgou_service_user_api/pom.xml" />
-        <option value="$PROJECT_DIR$/changgou_service_api/changgou_service_system_api/pom.xml" />
-        <option value="$PROJECT_DIR$/../zvxvzxvz/pom.xml" />
-        <option value="$PROJECT_DIR$/../springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_service/changgou_service_file/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_service_api/changgou_service_search_api/pom.xml" />
         <option value="$PROJECT_DIR$/changgou_service/changgou_service_page/pom.xml" />
-        <option value="$PROJECT_DIR$/changgou_user_auth/pom.xml" />
-        <option value="$PROJECT_DIR$/changgou_web/changgou_web_order/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-user-oauth/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/changgou_entity/pom.xml" />
-        <option value="$PROJECT_DIR$/changgou_service_api/changgou_service_goods/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_service/changgou-service-page/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_service/changgou_search/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
   </component>
 </project>

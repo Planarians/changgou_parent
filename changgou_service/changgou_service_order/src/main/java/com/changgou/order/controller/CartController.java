@@ -2,46 +2,42 @@ package com.changgou.order.controller;
 
 import com.changgou.entity.Result;
 import com.changgou.entity.StatusCode;
+import com.changgou.order.config.TokenDecode;
 import com.changgou.order.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
 @RestController
-@CrossOrigin
-@RequestMapping("/wcart")
+@RequestMapping("/cart")
 public class CartController {
 
     @Autowired
     private CartService cartService;
 
-    /**
-     * 添加购物车
-     * @param skuId 
-     * @param num
-     * @return
-     */
-    @GetMapping("/add")
-    public Result add(@RequestParam("skuId") String skuId, @RequestParam("num") Integer num){
+    @Autowired
+    private TokenDecode tokenDecode;
 
-        //暂时静态,后续动态获取
-        String username = "itcast";
-        cartService.add(skuId,num,username);
+    @GetMapping("/addCart")
+    public Result addCart(@RequestParam("skuId") String skuId, @RequestParam("num") Integer num){
 
+        //动态获取当前人信息,暂时静态
+        //String username = "itcast";
+        String username = tokenDecode.getUserInfo().get("username");
+        cartService.addCart(skuId,num,username);
         return new Result(true, StatusCode.OK,"加入购物车成功");
-
     }
 
-
-    /***
-     * 查询用户购物车列表
-     * @return
-     */
-    @GetMapping(value = "/list")
+    @GetMapping("/list")
     public Map list(){
-        //暂时静态，后续修改
-        String username = "itcast";
-        return cartService.list(username);
+        //动态获取当前人信息,暂时静态
+        //String username = "itcast";
+        String username = tokenDecode.getUserInfo().get("username");
+        Map map = cartService.list(username);
+        return map;
     }
 }
