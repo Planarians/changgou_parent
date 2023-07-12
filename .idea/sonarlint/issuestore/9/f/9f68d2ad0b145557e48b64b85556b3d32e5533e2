@@ -1,0 +1,58 @@
+
+\	java:S112³"FDefine and throw a dedicated exception instead of using a generic one.(õí·‰
+\	java:S112ÿ"FDefine and throw a dedicated exception instead of using a generic one.(Êù‚³
+a	java:S112ƒ"FDefine and throw a dedicated exception instead of using a generic one.(ÅÇØøÿÿÿÿ
+\	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(Êù‚³
+a	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(ÅÇØøÿÿÿÿ
+\	java:S112£"FDefine and throw a dedicated exception instead of using a generic one.(Êù‚³
+\	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(æ¤§
+a	java:S112´"FDefine and throw a dedicated exception instead of using a generic one.(Ø¬öıÿÿÿÿ
+\	java:S112Ã"FDefine and throw a dedicated exception instead of using a generic one.(Š•ÿ²
+f
+java:S1192ô"JDefine a constant instead of duplicating this literal "specItems" 4 times.(æâĞ¦úÿÿÿÿ
+c
+java:S1192•"LDefine a constant instead of duplicating this literal "category2Id" 3 times.(¡Àÿ¿
+h
+java:S1192‘"LDefine a constant instead of duplicating this literal "category1Id" 3 times.(Ğıúüÿÿÿÿÿ
+f
+java:S1192ø"JDefine a constant instead of duplicating this literal "paraItems" 4 times.(ÿ£ÿÔüÿÿÿÿ
+d
+java:S1192à"HDefine a constant instead of duplicating this literal "caption" 4 times.(ËõĞüÿÿÿÿ
+g
+java:S1192"KDefine a constant instead of duplicating this literal "templateId" 3 times.(¢×Í¤ùÿÿÿÿ
+a
+java:S1192¡"JDefine a constant instead of duplicating this literal "freightId" 3 times.(÷¦˜µ
+c
+java:S1192™"LDefine a constant instead of duplicating this literal "category3Id" 3 times.(ğÜŒÙ
+i
+java:S1192ğ"MDefine a constant instead of duplicating this literal "introduction" 4 times.(ƒÂ‡‚ıÿÿÿÿ
+]
+java:S1192ä"FDefine a constant instead of duplicating this literal "image" 4 times.(œéÖë
+m
+java:S1192ÿ"VDefine a constant instead of duplicating this literal "å½“å‰å•†å“ä¸å­˜åœ¨" 3 times.(Êù‚³
+c
+java:S1192è"GDefine a constant instead of duplicating this literal "images" 4 times.(ı´ó¼úÿÿÿÿ
+e
+java:S1192„"IDefine a constant instead of duplicating this literal "isDelete" 4 times.(±Âİğûÿÿÿÿ
+d
+java:S1192ü"MDefine a constant instead of duplicating this literal "isMarketable" 4 times.(ÜŠ³µ
+c
+java:S1192€"MDefine a constant instead of duplicating this literal "isEnableSpec" 4 times.(šÄ«C
+_
+java:S1192¥"HDefine a constant instead of duplicating this literal "saleNum" 3 times.(Çö‘Ñ
+h
+java:S1192ì"LDefine a constant instead of duplicating this literal "saleService" 4 times.(…ê±Ğşÿÿÿÿ
+b
+java:S1192©"KDefine a constant instead of duplicating this literal "commentNum" 3 times.(Ş Ñª
+_
+java:S1192"HDefine a constant instead of duplicating this literal "brandId" 3 times.(™è­·
+^
+java:S1192ˆ"GDefine a constant instead of duplicating this literal "status" 4 times.(ö¾í§
+7
+java:S1643z"Use a StringBuilder instead.(•ÚòÎüÿÿÿÿ
+r
+java:S3252Ï"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‹‹¥®úÿÿÿÿ8ôÛÄÓ“1
+r
+java:S3252Ü"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‹‹¥®úÿÿÿÿ8õÛÄÓ“1
+u
+java:S3776Ï"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(êîâŸıÿÿÿÿ8ÜÄÓ“1

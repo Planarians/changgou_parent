@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_canal/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_service_api/changgou_service_user_api/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_service_api/changgou_service_system_api/pom.xml" />
+        <option value="$PROJECT_DIR$/../zvxvzxvz/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_service/changgou_service_page/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_user_auth/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/changgou_entity/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_service_api/changgou_service_goods/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+
+‚
+java:S1845"eRename method "SEARCH_ADD_QUEUE" to prevent any misunderstanding/clash with field "SEARCH_ADD_QUEUE".(ÇèÂÑ8ÁŸãø’1
+‚
+java:S1845"eRename method "SEARCH_DEL_QUEUE" to prevent any misunderstanding/clash with field "SEARCH_DEL_QUEUE".(ù¡©ì8ÁŸãø’1
+„
+java:S1845$"gRename method "GOODS_UP_EXCHANGE" to prevent any misunderstanding/clash with field "GOODS_UP_EXCHANGE".(ý©ÆÅ8ÁŸãø’1
+ˆ
+java:S1845("kRename method "GOODS_DOWN_EXCHANGE" to prevent any misunderstanding/clash with field "GOODS_DOWN_EXCHANGE".(Œ‚ÿÿ8ÁŸãø’1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇèÂÑ8ÅŸãø’1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¡©ì8ÅŸãø’1
+j	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ý©ÆÅ8ÆŸãø’1
+j	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ‚ÿÿ8ÇŸãø’1
+j	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¤öò8ÈŸãø’1
+o	java:S1003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õö¥‚üÿÿÿÿ8ÉŸãø’1

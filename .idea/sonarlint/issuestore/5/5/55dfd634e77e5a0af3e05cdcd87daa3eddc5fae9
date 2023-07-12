@@ -1,0 +1,25 @@
+
+a
+java:S1192‘"JDefine a constant instead of duplicating this literal "isDefault" 4 times.(üÜ›³
+_
+java:S1192‰"HDefine a constant instead of duplicating this literal "address" 4 times.(è¬äî
+c
+java:S1192"GDefine a constant instead of duplicating this literal "areaid" 4 times.(”ÿ±áÿÿÿÿÿ
+]
+java:S1192…"FDefine a constant instead of duplicating this literal "phone" 4 times.(ü‚©ø
+_
+java:S1192"HDefine a constant instead of duplicating this literal "contact" 4 times.(ëËÌ„
+]
+java:S1192•"FDefine a constant instead of duplicating this literal "alias" 4 times.(ÑÌ„Õ
+b
+java:S1192}"GDefine a constant instead of duplicating this literal "cityid" 4 times.(•æ‡Êüÿÿÿÿ
+f
+java:S1192y"KDefine a constant instead of duplicating this literal "provinceid" 4 times.(æŞ—…ûÿÿÿÿ
+d
+java:S1192u"IDefine a constant instead of duplicating this literal "username" 4 times.(ù°Üùÿÿÿÿ
+j
+java:S3252Y"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‹‹¥®úÿÿÿÿ
+j
+java:S3252f"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‹‹¥®úÿÿÿÿ
+m
+java:S3776p"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(êîâŸıÿÿÿÿ
