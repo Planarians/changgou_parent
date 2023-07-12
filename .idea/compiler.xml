@@ -11,6 +11,7 @@
         <module name="springboot-thymeleaf" />
         <module name="changgou_eureka" />
         <module name="changgou_service_order_api" />
+        <module name="changgou_web_order" />
         <module name="changgou_service_system" />
         <module name="changgou_service_order" />
         <module name="changgou_canal" />
@@ -71,6 +72,7 @@
       <module name="changgou_service_user_api" options="-parameters" />
       <module name="changgou_user_auth" options="-parameters" />
       <module name="changgou_web" options="-parameters" />
+      <module name="changgou_web_order" options="-parameters" />
       <module name="springboot-thymeleaf" options="-parameters" />
     </option>
   </component>
