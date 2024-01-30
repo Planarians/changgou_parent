@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/changgou_service_api/changgou_service_search_api/pom.xml" />
         <option value="$PROJECT_DIR$/changgou_service/changgou_service_page/pom.xml" />
         <option value="$PROJECT_DIR$/changgou-user-oauth/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou_common_fescar/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

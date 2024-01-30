@@ -14,7 +14,7 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("/wcart")
-public class CartController {
+public class CartController{
 
     @Autowired
     private CartFeign cartFeign;

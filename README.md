@@ -10,15 +10,16 @@
 
   For handling the outermost layer's high concurrency, OpenResty-integrated Nginx is employed. Keepalived and Nginx are used together to address Nginx single-point-of-failure issues.
 
-Frontend Web Pages![1559111851979](file:///Users/xiaoshitou/Documents/pj2/ccg/%E8%AE%B2%E4%B9%89-HTML/day01/image/1559111851979.png)
+Frontend Web Pages
+![](asset/1559111851979.png)
 
 
 
-Backend Administration Page![img](file:///Users/xiaoshitou/Documents/pj2/ccg/%E8%AE%B2%E4%B9%89-HTML/day01/image/Snipaste_2019-09-05_14-35-42.png)
+Backend Administration Page
+![](asset/Snipaste_2019-09-05_14-35-42.png)
 
 Shopping Cart Page
-
-![20201130213020179](/Users/xiaoshitou/Downloads/20201130213020179.png)
+![](asset/20201130213020179.png)
 
 ## Technology Stack
 
@@ -73,13 +74,11 @@ External Interfaces:
 - **WeChat Payment Interface**: Used for WeChat payment integration.
 
 
+![](asset/1-4.png)
 
-![img](file:///Users/xiaoshitou/Documents/pj2/ccg/%E8%AE%B2%E4%B9%89-HTML/day01/image/1-4.png)
+![](asset/1-5.png)
 
-![img](file:///Users/xiaoshitou/Documents/pj2/ccg/%E8%AE%B2%E4%B9%89-HTML/day01/image/1-5.png)
-
-![68747470733a2f2f73312e617831782e636f6d2f323032302f30332f31342f3851797135382e706e67](/Users/xiaoshitou/Downloads/68747470733a2f2f73312e617831782e636f6d2f323032302f30332f31342f3851797135382e706e67.png)
-
+![](asset/68747470733a2f2f73312e617831782e636f6d2f323032302f30332f31342f3851797135382e706e67.png)
 
 
 Backend and Frontend, Back-end and Front-end

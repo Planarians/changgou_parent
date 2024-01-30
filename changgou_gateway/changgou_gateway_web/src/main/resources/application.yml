@@ -45,7 +45,21 @@ spring:
         - id: changgou_order_web_route
           uri: lb://order-web
           predicates:
-            - Path=/api/wcart/**,/api/worder/**
+            - Path=/api/wcart/**,/api/worder/**,/api/wxpay/**
+          filters:
+            - StripPrefix=1
+      #秒杀微服务
+        - id: changgou_seckill_route
+          uri: lb://seckill
+          predicates:
+            - Path=/api/seckillgoods/**,/api/seckillorder/**
+          filters:
+            - StripPrefix=1
+      #秒杀渲染微服务
+        - id: changgou_seckill_web_route
+          uri: lb://seckill-web
+          predicates:
+            - Path=/api/wseckillgoods/**,/api/wseckillorder/**
           filters:
             - StripPrefix=1
   redis:
